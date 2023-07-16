@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * Main - Point of entry
+* Main - Point of entry
+*Return: 0 success
+*
 */
 int main(void)
 {
