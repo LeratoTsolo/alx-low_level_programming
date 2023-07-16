@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*
- * Main - Prints hello world using printf.
+/**
+ * Main - Point of entry
 */
 int main(void)
 {
-	printf("with proper grammar,but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
