@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- *main functions prints the specified words using puts not printf.
- *Return value is 0
+ *main - functions prints the specified words using puts not printf.
+ *Return - value is 0
 */
 int main(void)
 {
