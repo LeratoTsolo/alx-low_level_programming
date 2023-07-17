@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* Main - Point of entry
-*Return: 0 success
+*main - Prints text using printf.
+*Return: (0) success
 *
 */
 int main(void)
