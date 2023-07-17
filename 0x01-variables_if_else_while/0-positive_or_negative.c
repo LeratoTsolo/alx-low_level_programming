@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - print message based on value of number
-* Return: (0) success 
+*main - print message based on value of number
+*Return: (0) success
 */
 int main(void)
 {
-        int n;
+	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
