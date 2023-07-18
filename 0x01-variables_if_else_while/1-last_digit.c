@@ -3,7 +3,7 @@
 #include <time.h>
 /**
 *main - print messages. If statements
-*return: (0) success
+*Return: (0) success
 */
 int main(void)
 {
@@ -20,7 +20,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, digit);
 	}
-	else
+	else if (digit < 6 && != 0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digit);
 	}
