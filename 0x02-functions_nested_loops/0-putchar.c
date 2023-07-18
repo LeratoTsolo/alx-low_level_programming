@@ -11,7 +11,6 @@ int main(void)
 	for (i = 1; i < 9; i++)
 	{
 	_putchar(c[i]);
-	return (0);
 	}
 	return (0);
 }
