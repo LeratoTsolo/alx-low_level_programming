@@ -6,7 +6,7 @@
 int main(void)
 {
 	char c[9] = "_putchar";
-	int i = 1;
+	int i = 0;
 
 	for (i = 1; i < 9; i++)
 	{
