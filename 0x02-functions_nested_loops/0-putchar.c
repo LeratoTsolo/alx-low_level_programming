@@ -1,5 +1,4 @@
-#include "_putchar.c"
-#include <stdio.h>
+#include "main.h"
 /**
 *main - prints _putchar followed by new line.
 *Return: (0) success
@@ -10,7 +9,8 @@ int main(void)
 	int i =1;
 	for(i = 1; i < 9; i++)
 	{
-		putchar(c[i]);
+	_putchar(c[i]);
+	return (0);
 	}
 	return (0);
 }
