@@ -3,7 +3,7 @@
 /**
 *_islower - check for lowercase charactr
 *@c: parameter
- *Return: (1) or (0)
+*Return: (1) or (0)
 */
 int _islower(int c)
 {
