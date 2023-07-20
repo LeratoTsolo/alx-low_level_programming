@@ -1,7 +1,6 @@
 #include "main.h"
-#include <ctype.h>
 /**
-*_islower - check for lowercase charactr
+*_isupper - check for lowercase charactr
 *@c: parameter
 *Return: (1) or (0)
 */
