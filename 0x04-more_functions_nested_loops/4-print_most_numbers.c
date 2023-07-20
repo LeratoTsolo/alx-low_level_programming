@@ -1,7 +1,6 @@
 #include "main.h"
 /**
 * print_most_numbers - print alphabets in lowecase.
-* Return: (0) success
 */
 void print_most_numbers(void)
 {
