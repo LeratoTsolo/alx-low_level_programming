@@ -2,10 +2,10 @@
 #include <ctype.h>
 /**
 *_isalpha - checks if character is an alphabet.
-*@c - paramater
+*@c: paramater
 *Return: (1) or (0)
 */
-int _isalpha (int c)
+int _isalpha(int c)
 {
 	if (isalpha(c) == 0)
 	{
