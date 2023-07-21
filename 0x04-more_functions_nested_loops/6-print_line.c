@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
 *print_line - print _ n times
 *@n: parameter
 *Return: void
 */
+
 void print_line(int n)
 {
 	int i = n;
