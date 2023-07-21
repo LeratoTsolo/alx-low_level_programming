@@ -1,11 +1,8 @@
 #include "main.h"
-
 /**
 *print_diagonal - print \ n times
 *@n: parameter
-*Return: void
 */
-
 void print_diagonal(int n)
 {
 	int i = n;
