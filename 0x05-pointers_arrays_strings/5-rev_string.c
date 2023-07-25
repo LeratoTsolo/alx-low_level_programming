@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*print_rev - print a string in reverse
+*rev_string - print a string in reverse
 *@s: input string
 *Return: void
 */
-void print_rev(char *s)
+void rev_string(char *s)
 {
         int c;
         int i;
@@ -13,11 +13,11 @@ void print_rev(char *s)
         c = 0;
         for (i = 0; s[i] != '\0'; i++)
         c++;
-        for (c = c - 1; c >= 0; c--)
+        for (i = 0 ; i < c / 2; i++)
 	{
 	st = s[i];
- 	s[i] = s[c];
-	s[c] = st;
+ 	s[i] = s[c - 1 - i];
+	s[c - 1 - i] = st;
 	}	
 		/*_putcha(s[c]);
         _putchar('\n'); */
