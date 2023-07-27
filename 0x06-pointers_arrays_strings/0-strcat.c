@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-**_strcat - concatinates two strings.
+*_strcat - concatinates two strings.
 *@dest: destination string
 *@src: source string
 *return: destination string
@@ -16,6 +16,6 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; src[i] != '\0'; i++)
 	s++;
 	for (i = 0; i <= s; i++)
-		dest[d + 1] = src[i];
+	dest[d + 1] = src[i];
 	return (dest);
 }
