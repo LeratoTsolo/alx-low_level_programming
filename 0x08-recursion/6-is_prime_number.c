@@ -2,10 +2,10 @@
 
 int actual_prime(int n, int i);
 
-/** 
-* is_prime_number - if integer is prime
-* @n: input
-* Return: 1 or 0
+/**
+*is_prime_number - if integer is prime
+*@n: input
+*Return: 1 or 0
 */
 int is_prime_number(int n)
 {
@@ -15,10 +15,10 @@ int is_prime_number(int n)
 }
 
 /**
-* actal _prime - cal if prime
-* @n input
-* @i: input
-* Return: 1 or 0
+*actal _prime - cal if prime
+*@n input
+*@i: input
+*Return: 1 or 0
 */
 int actual_prime(int n, int i)
 {
